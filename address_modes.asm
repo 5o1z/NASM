@@ -27,3 +27,25 @@ _start:
   mov eax, 1 ; (sys_exit)
   xor ebx, ebx ; return 0
   int 80h
+
+; --------------------------------------
+; NASM to C
+; --------------------------------------
+; #include <unistd.h>
+; #include <string.h>
+
+; int main() {
+;     // Khởi tạo chuỗi
+;     char name[] = "Zara Ali";
+
+;     // In ra chuỗi ban đầu "Zara Ali"
+;     write(1, name, 9);  // stdout (1), chuỗi name, độ dài 9 (bao gồm dấu cách)
+
+;     // Ghi đè phần đầu của chuỗi "Zara Ali" thành "Nuha"
+;     memcpy(name, "Nuha", 4);  // Ghi đè 4 byte đầu tiên của chuỗi 'Zara Ali'
+
+;     // In lại chuỗi đã thay đổi "Nuha Ali"
+;     write(1, name, 8);  // stdout (1), chuỗi name, độ dài 8 (bao gồm dấu cách)
+
+;     return 0;  // Exit chương trình với mã trả về 0
+; }
