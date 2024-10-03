@@ -48,7 +48,7 @@ _start:
 ; NASM to C
 ; ---------------------------------------------
 
-#include <stdio.h>
+; #include <stdio.h>
 
 ; int main() {
 ;     char num[6];  // Bộ nhớ để lưu số mà người dùng nhập, thêm 1 ký tự cho '\0'
