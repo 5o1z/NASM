@@ -43,3 +43,27 @@ _start:
   mov eax, 1
   mov ebx, 0
   int 0x80
+
+; ---------------------------------------------
+; NASM to C
+; ---------------------------------------------
+
+#include <stdio.h>
+
+; int main() {
+;     char num[6];  // Bộ nhớ để lưu số mà người dùng nhập, thêm 1 ký tự cho '\0'
+
+;     // Hiển thị thông báo yêu cầu nhập số
+;     printf("Please enter a number: ");
+
+;     // Đọc số từ người dùng nhập vào
+;     fgets(num, sizeof(num), stdin);  // Đọc tối đa 5 ký tự từ người dùng, fgets tự thêm ký tự '\0'
+
+;     // Hiển thị thông báo "You have entered: "
+;     printf("You have entered: ");
+
+;     // Hiển thị lại số mà người dùng đã nhập
+;     printf("%s", num);
+
+;     return 0;  // Thoát chương trình
+; }
