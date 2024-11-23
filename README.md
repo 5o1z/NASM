@@ -1,5 +1,6 @@
 ## NASM for my learning journey.
 
-Practice NASM here: https://altersol.gitbook.io/alter/learning/note-practice/nasm#practice
+- Learn NASM from https://www.tutorialspoint.com/assembly_programming/index.htm
 
-- I will systematize this repo later. 
+- Practice NASM here: https://altersol.gitbook.io/alter/learning/note-practice/nasm#practice
+
