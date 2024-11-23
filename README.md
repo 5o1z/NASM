@@ -1,3 +1,5 @@
-## NASM for beginner
+## NASM for my learning journey.
 
-More practice NASM here: https://altersol.gitbook.io/alter/learning/note-practice/nasm#practice
+Practice NASM here: https://altersol.gitbook.io/alter/learning/note-practice/nasm#practice
+
+- I will systematize this repo later. 
